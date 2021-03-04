@@ -13,3 +13,23 @@ h1 {
 .card img {
   width: 100%;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222;
+  cursor: pointer;
+}

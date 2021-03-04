@@ -27,6 +27,9 @@ const App = ()=>{
         { isLoading?
           <h1 className="text-danger">Loading...</h1>
         :null }
+        { isError || error?
+          <h1 className="text-danger">something went wrong</h1>
+        :null }
         <div className="row">
           { data && data.data && data.data.results?
             data.data.results.map((e, i)=>(

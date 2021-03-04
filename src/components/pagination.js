@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from 'react'
-
 export const Pagination = ({ info: { pages, prev, next }, pageFunc, currentPage })=>{
 
   const setPage = (e, page)=>{
