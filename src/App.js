@@ -24,6 +24,9 @@ const App = ()=>{
     <div className="App">
       <Header />
       <div className="container">
+        { isLoading?
+          <h1 className="text-danger">Loading...</h1>
+        :null }
         <div className="row">
           { data && data.data && data.data.results?
             data.data.results.map((e, i)=>(
